@@ -1,0 +1,9 @@
+Cross-Origin Resource Sharing
+to address this issue:
+we will install a 3rd party app: django-cors-headers
+pip install django-cors-headers
+
+three things need to be updated:
+> add corsheaders to installed_apps
+> add CorsMiddleware above CommonMiddleWare
+> add CORS_ALLOWED_ORIGINS config var to bottom of the file

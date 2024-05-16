@@ -1,0 +1,1 @@
+add CSRF_TRUSTED_ORIGINS config var
